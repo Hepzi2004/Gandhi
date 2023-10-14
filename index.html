@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahatma Gandhi</title>
+    <style>
+        /* Reset some default styles */
+        body, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set a colorful background */
+        body {
+            background: linear-gradient(135deg, #FF6B6B, #FFD56B, #5BFF6B, #6B8AFF);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
+        p {
+             font-size: 20px;
+         }
+
+
+        /* Add a colorful border to the header */
+        header {
+            background-color: #333;
+            border-bottom: 5px solid #FF6B6B;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Style the navigation links */
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #FF6B6B;
+        }
+
+        /* Style the main content container */
+        .content {
+            padding: 20px;
+            text-align: center;
+            color:darkblue;
+        }
+
+        /* Add a colorful box with an image */
+        .box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .box img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Animation for the background gradient */
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+         <ul>
+                <li><a href="Biography.html">Biography</a></li>
+                <li><a href="Quotes.html">Quotes</a></li>
+                <li><a href="Legacy.html">Legacy</a></li>
+            </ul>
+           </nav>
+    </header>
+
+    <div class="content">
+        <div class="box">
+            <img src="biography.jpg" width="400" height="200">
+
+            <h2>Section 1</h2>
+            <p>This section provide a concise biography of Mahatma Gandhi's life. Highlight key milestones, such as his early years in India, education, time in South Africa, and his return to India to lead the independence movement..</p>
+        </div>
+
+        <div class="box">
+            <img src="Quotesofgandhi.jpg" width="600" height="400">
+
+            <h2>Section 2</h2>
+            <p>This section share's some of Mahatma Gandhi's most famous quotes. These can include statements about peace, nonviolence, and justice..</p>
+        </div>
+
+        <div class="box">
+            <img src="tribute.jpeg" width="600" height="400">
+
+            <h2>Section 3</h2>
+            <p>This section discuss the lasting legacy of Mahatma Gandhi, including his role in India's struggle for independence and his influence on other civil rights movements worldwide..</p>
+        </div>
+    </div>
+</body>
+</html>
